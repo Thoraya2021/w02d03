@@ -24,11 +24,22 @@ btn2.addEventListener("click",changeTheStyle)
 
 const btn3=document.querySelector(".btn3")
 console.log(btn3);
-const changeTheStyle =>{
+const changeTheStyle=() =>{
     const p = document.querySelector("p")
     p.style.backgroundColor = "yellow"
 }
 btn3.addEventListener("click",changeTheStyle)
+
+
+
+
+const btn4=document.querySelector(".btn4")
+console.log(btn4);
+const showimage =() => {
+    const p = document.querySelector("img")
+    img.style.visibility="hidden"
+}
+btn4.ddEventListener("click",showimage)
 
 
 
